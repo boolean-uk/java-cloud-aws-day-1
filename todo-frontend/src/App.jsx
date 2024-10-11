@@ -23,7 +23,7 @@ function App() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ completed: checked }),
+      body: JSON.stringify({ title: todos.find(todo => todo.id === id).title, completed: checked }),
     })
       .then((response) => {
         if (!response.ok) {

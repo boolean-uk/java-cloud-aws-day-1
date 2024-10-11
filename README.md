@@ -124,3 +124,5 @@ json
 
 1. **Access the Static Site:**
    - After configuring static website hosting, note the "Bucket website endpoint" URL provided in the static website hosting section.
+
+url: http://bucket-thomas-nielsen-react-app-todo.s3-website.eu-north-1.amazonaws.com/
