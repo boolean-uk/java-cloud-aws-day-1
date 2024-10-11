@@ -1,5 +1,8 @@
 # JAVA Cloud AWS - Day One
 
+frontend: http://ali-ehsani-app.s3-website-eu-west-1.amazonaws.com/
+backend: http://springtodo-ali-ehsani-env.eba-4weaiy6m.eu-west-1.elasticbeanstalk.com/todos
+
 ## Learning Objectives
 
 - Understand how to deploy an API to AWS Elastic Beanstalk
