@@ -124,3 +124,5 @@ json
 
 1. **Access the Static Site:**
    - After configuring static website hosting, note the "Bucket website endpoint" URL provided in the static website hosting section.
+
+URL: http://aws-day1-oliver-lundh-andersson.s3-website-eu-west-1.amazonaws.com/
