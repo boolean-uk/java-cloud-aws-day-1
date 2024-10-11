@@ -1,5 +1,16 @@
 # JAVA Cloud AWS - Day One
 
+## Links
+http://hermans-bucket-of-slorsopp.s3-website-eu-west-1.amazonaws.com/
+http://springtodothomasw-env.eba-vf5ymgp2.eu-west-1.elasticbeanstalk.com/todos
+
+**Fixed home page:**
+http://springtodothomasw-env.eba-vf5ymgp2.eu-west-1.elasticbeanstalk.com/
+
+**Added 404 to static**
+http://hermans-bucket-of-slorsopp.s3-website-eu-west-1.amazonaws.com/randomtest
+
+
 ## Learning Objectives
 
 - Understand how to deploy an API to AWS Elastic Beanstalk
