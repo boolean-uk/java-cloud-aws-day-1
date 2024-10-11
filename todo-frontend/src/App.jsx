@@ -18,12 +18,17 @@ function App() {
 
   // HANDLE UPDATING TODO
   const handleCheckedChangeRequest = (id, checked) => {
+    const currentTodo = todos.find((todo) => todo.id === id);
+
     fetch(`${API_URL}/todos/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ completed: checked }),
+      body: JSON.stringify({ 
+        title: currentTodo.title, 
+        completed: checked 
+      }),
     })
       .then((response) => {
         if (!response.ok) {
@@ -35,7 +40,7 @@ function App() {
         setTodos((prevTodos) =>
           prevTodos.map((todo) => {
             if (todo.id === id) {
-              return { ...todo, completed: checked };
+              return { ...todo, title: todo.title, completed: checked };
             }
             return todo;
           })

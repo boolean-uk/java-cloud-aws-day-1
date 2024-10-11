@@ -1,3 +1,5 @@
+LINK: http://tuvas-bucket.s3-website-eu-west-1.amazonaws.com/
+
 # JAVA Cloud AWS - Day One
 
 ## Learning Objectives
