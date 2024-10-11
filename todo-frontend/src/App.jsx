@@ -23,7 +23,7 @@ function App() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ ...todo, checked: checked }),
+      body: JSON.stringify({ ...todo, completed: checked }),
     })
       .then((response) => {
         if (!response.ok) {
