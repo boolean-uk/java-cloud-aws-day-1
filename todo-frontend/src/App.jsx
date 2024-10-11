@@ -8,6 +8,7 @@ function App() {
 
   // LOAD EXISTING TODOS
   useEffect(() => {
+    console.log(`${API_URL}/todos`);
     fetch(`${API_URL}/todos`)
       .then((response) => response.json())
       .then((data) => {
