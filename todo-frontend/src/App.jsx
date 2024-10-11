@@ -17,13 +17,13 @@ function App() {
   }, []);
 
   // HANDLE UPDATING TODO
-  const handleCheckedChangeRequest = (id, checked) => {
+  const handleCheckedChangeRequest = (id, todo, checked) => {
     fetch(`${API_URL}/todos/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ completed: checked }),
+      body: JSON.stringify({ ...todo, checked: checked }),
     })
       .then((response) => {
         if (!response.ok) {
@@ -38,7 +38,7 @@ function App() {
               return { ...todo, completed: checked };
             }
             return todo;
-          })
+          }),
         );
         setIsFetching(false);
       })
@@ -139,7 +139,7 @@ function App() {
               checked={todo.completed}
               disabled={isFetching}
               onChange={(event) =>
-                handleCheckedChangeRequest(todo.id, event.target.checked)
+                handleCheckedChangeRequest(todo.id, todo, event.target.checked)
               }
             />
             {todo.title} (id: {todo.id})
