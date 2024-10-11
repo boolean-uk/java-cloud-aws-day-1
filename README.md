@@ -124,3 +124,7 @@ json
 
 1. **Access the Static Site:**
    - After configuring static website hosting, note the "Bucket website endpoint" URL provided in the static website hosting section.
+
+## Public URLs
+- React frontend: http://bucket-herman-stornes-react-app-todo.s3-website-eu-west-1.amazonaws.com/
+- Spring backend: http://springtodohermangardstornes-env.eba-vqz5ca9e.eu-west-1.elasticbeanstalk.com/todos
