@@ -124,3 +124,6 @@ json
 
 1. **Access the Static Site:**
    - After configuring static website hosting, note the "Bucket website endpoint" URL provided in the static website hosting section.
+  
+## Url endpoint
+http://bucket-sebastian-rone-ract-app-todo.s3-website-eu-west-1.amazonaws.com/
