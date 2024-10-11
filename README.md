@@ -124,3 +124,7 @@ json
 
 1. **Access the Static Site:**
    - After configuring static website hosting, note the "Bucket website endpoint" URL provided in the static website hosting section.
+
+
+## URL to site:
+http://bucket-emma-lovgren-react-app-todo.s3-website-eu-west-1.amazonaws.com/
